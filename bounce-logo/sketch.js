@@ -9,7 +9,7 @@ let burts;
 let r,g,b;
 
 function preload() {
-  burts = loadImage("burt1.png");
+  burts = loadImage("burts2.png");
 }
 
 function setup() {
