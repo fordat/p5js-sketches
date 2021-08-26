@@ -1,6 +1,12 @@
-let vals = new Array(100);
-vals = vals.fill(0).map(x => Math.random());
-dvals = Array(100).fill().map(Math.random);
+let vals = [3, 6, 31, 6, 2]
 
-console.log(vals);
-console.log(dvals);
+
+
+
+let bingo = vals.reduce((acc, val) => 
+    val > acc ? val : acc 
+);
+console.log(bingo);
+
+// let answer = vals.reduce((acc,val) => acc + val, 10);
+// console.log(answer);
