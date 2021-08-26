@@ -1,13 +1,6 @@
-function setup() {
+let vals = new Array(100);
+vals = vals.fill(0).map(x => Math.random());
+dvals = Array(100).fill().map(Math.random);
 
-    for (let i = 0; i < 100; i++) {
-        //stuff
-        if (mouseX > 20) {
-            let j = 20
-        }
-        console.log(j);
-    }
-
-
-    console.log(i);
-}
+console.log(vals);
+console.log(dvals);
